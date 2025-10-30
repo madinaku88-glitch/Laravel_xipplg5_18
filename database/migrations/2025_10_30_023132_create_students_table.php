@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('students', function (Blueprint $table) {
             $table->id();
+            $table->string('nis')->unique();
+            $table->string('nama Lengkap');
+            $table->enum('jenis kelamin', ['L','P']);
+            $table->string('nisn')->nullable();                                                                       
             $table->timestamps();
         });
     }
