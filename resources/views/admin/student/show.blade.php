@@ -23,7 +23,7 @@
         </tr>
         <tr>
           <th>Jenis Kelamin</th>
-          <td>{{ $student->Jenis_kelamin }}</td>
+          <td>{{ $student->jenis_kelamin }}</td>
         </tr>
         <tr>
           <th>NISN</th>
