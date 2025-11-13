@@ -9,10 +9,10 @@ class Student extends Model
 {
     use HasFactory;
 
-    Protected $fillable = [
+    protected $fillable = [
         'nis',
         'nama_lengkap',
-        'jenis_kelamin',
+        'Jenis_kelamin',
         'nisn',
     ];
 }
