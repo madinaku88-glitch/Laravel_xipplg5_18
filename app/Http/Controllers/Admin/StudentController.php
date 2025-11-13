@@ -78,6 +78,8 @@ class StudentController extends Controller
      */
     public function destroy(Student $student)
     {
-        //code
+        $student->delete();
+        return redirect()->route('admin.students.index')->with('success', 'Data siswa berhasil di hapus');
+
     }
 }
